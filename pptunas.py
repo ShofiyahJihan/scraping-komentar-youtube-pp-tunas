@@ -20,8 +20,8 @@ def ambil_komentar(url, jumlah):
     hasil = []
     for c in islice(downloader.get_comments_from_url(url), jumlah):
         hasil.append({
-            "waktu": c["time"],                 # contoh: "3 bulan yang lalu"
-            "tanggal": c.get("time_parsed"),    # perkiraan tanggal (timestamp)
+            "waktu": c["time"],                 
+            "tanggal": c.get("time_parsed"),    
             "like": c["votes"],
             "komentar": " ".join(c["text"].split()),
         })
