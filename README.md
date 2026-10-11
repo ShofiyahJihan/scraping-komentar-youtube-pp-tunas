@@ -24,10 +24,9 @@ dengan menghitung seberapa sering kata-kata tertentu muncul di kolom komentar.
 - `pandas` untuk merapikan data dan menyimpannya
 
 ## Menjalankan program
-```
 pip install -r requirements.txt
 python pptunas.py
-```
+
 
 ## Hasil
 - Ringkasan di terminal: jumlah komentar, rentang waktu, hitungan kata kunci,
@@ -39,7 +38,7 @@ Keterangan waktu dari YouTube berbentuk perkiraan (misalnya "3 bulan yang lalu")
 sehingga kolom tanggal pada CSV bersifat kasar.
 
 ## Kelompok
-Mutiah Anwar (240907500007)
-Nadyah Fakhriyah Izzah FS (240907501005)
-Shofiyah Jihan Aulia Anwar (240907502006)
-Siti Nadhifa Fadhilah (240907502011)
+- Mutiah Anwar (240907500007)
+- Nadyah Fakhriyah Izzah FS (240907501005)
+- Shofiyah Jihan Aulia Anwar (240907502006)
+- Siti Nadhifa Fadhilah (240907502011)
